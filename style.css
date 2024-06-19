@@ -1,0 +1,18 @@
+@import url('styles/header.css');
+
+:root {
+    --cor-branca: #FFFFFF;
+    --cor-preta: #101828;
+    --cor-cinza: #667085;
+    --cor-vermelha: #8E2424;
+    --cor-vermelha-claro: rgba(142, 36, 36, 0.05);
+
+    --fonte-primaria: 'Inter';
+}
+
+body {
+    background-color: var(--cor-branca);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    font-weight: 400;
+}
