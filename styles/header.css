@@ -1,13 +1,19 @@
-.cabecalho {
-    display: flex;
-    padding: 2em 10em;
+/* .cabecalho {
+    display: flex; */
+    /* padding: 2em 10em;
     gap: 10vw;
-}
+} */
 
 .cabecalho__navegacao{
     display: flex;
     align-items: center;
-    gap: 25px;
+    padding: 2em 10em;
+}
+
+.cabecalho__navegacao-links {
+    display: flex;
+    margin-left: 8em;
+    gap: 32px;
 }
 
 .cabecalho__navegacao__link {
@@ -48,4 +54,31 @@
 .cabecalho__usuario__link__cadastrar:active {
     background: var(--cor-vermelha-claro);
     color: var(--cor-vermelha);
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8em 30em;
+    gap: 36px;
+}
+
+.sobre__titulo {
+    color: var(--cor-vermelha);
+    font-weight: 600;
+}
+
+.sobre__subtitulo {
+    color: var(--cor-preta);
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.sobre__paragrafo {
+    color: var(--cor-cinza);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1.5em;
 }
