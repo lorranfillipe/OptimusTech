@@ -1,0 +1,29 @@
+.metricas-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 16em;
+}
+
+.metricas-container-caixa {
+    width: 16em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.metricas-container-caixa--titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-vermelha);
+}
+
+.metricas-container-caixa--subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-preta);
+}
+
+.metricas-container-caixa--texto {
+    color: var(--cor-cinza);
+}
