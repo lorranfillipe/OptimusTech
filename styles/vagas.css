@@ -35,5 +35,48 @@
 
 .vagas__imagem {
     padding: 0 10em;
-    margin-bottom: 5em;
+    /* margin-bottom: 3em; */
 }
+
+.vaga-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.topico-vaga {
+    display: flex;
+    margin: 3em 0 1em 28.5em;
+    margin-left: 28.5em;
+    margin-bottom: 1em;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-preta);
+}
+
+.vaga {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 2em 25vw 2em 1.5em;
+    border: 1px solid var(--cor-cinza-claro);
+    border-radius: 20px;
+    gap: 2em;
+}
+
+.titulo-vaga {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-preta);
+}
+
+.informacoes {
+    display: flex;
+    gap: 1.5em;
+}
+
+.vaga__texto {
+    font-weight: 500;
+    color: var(--cor-cinza);
+}
+
