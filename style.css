@@ -1,11 +1,15 @@
 @import url('styles/header.css');
 @import url('styles/metricas.css');
 @import url('styles/vagas.css');
+@import url('styles/depoimento.css');
+@import url('styles/footer.css');
 
 :root {
     --cor-branca: #FFFFFF;
+    --cor-branca-claro: #F9FAFB;
     --cor-preta: #101828;
     --cor-cinza: #667085;
+    --cor-cinza-meio: #98A2B3;
     --cor-cinza-claro: #EAECF0;
     --cor-vermelha: #8E2424;
     --cor-vermelha-claro: rgba(142, 36, 36, 0.05);
